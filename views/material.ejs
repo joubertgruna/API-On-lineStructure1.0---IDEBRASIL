@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="icon" href="" type="image/png" > -->
+    <link href="assets/img/i.ico" rel="icon" type="image/x-icon" />
+
+    <title>Desafio 4D +50L - Baixar Material Aula 01</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '709156546588313');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=709156546588313&ev=PageView
+  &noscript=1" />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+
+</head>
+
+<body style="background-color: black;">
+    <section id="team" class="section-padding text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <div style="background-color: black;" class="card text-center justify-content-center">
+                    <div class="card-header">
+                        <div class="col-lg-12 text-center">
+                        <!-- <img class="img-fluid pt-2 pb-2" style="height: 150px;" src="assets/img/logo-preto.png" alt=""> -->
+                        <img class="img-responsive" style="width: 260px;" src="assetsBlogs/img/logo_ofc.png"
+                            alt="">
+                            <h4 style="color: white;"><strong>Preencha todos os campos do formulário abaixo.</strong></h4>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                    <form method="post" name="form" action="/material" id="contactForm">
+                    <div align="center" class="row">
+                     <!--tag-->
+                     <input type="hidden" name="tag" value="Planilha-Aula03-8L" class="inputtag">
+                      <input type="hidden" name="title" value="ig" class="inputtag">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-md-12 pt-3">
+                        <!--nome-->
+                        <input style="border-radius: 13px;" type="text" name="firstName" class="form-control trata" placeholder="Nome">
+                        <span style="font-size: 13px; color: red" id="msgNome"></span>
+                      </div>
+                       <div class="col-xs-12 col-sm-12 col-md-12 col-md-12 pt-3">
+                        <!--email-->
+                        <input style="border-radius: 13px;" type="email" name="email" class="form-control" placeholder="E-mail *">
+                        <span style="font-size: 13px; color: red" id="msgEmail"></span>
+                      </div>
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-md-12 pt-3 pb-3">
+                        <!--email-->
+                        <input id="phone" style="border-radius: 13px;" type="text" name="phone" class="form-control" placeholder="Celular *" minlength = 17>
+                        <span style="font-size: 13px; color: red" id="msgCelular"></span><br>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-lg mt-3 text-center" onclick="msgInputsOff()">BAIXAR PLANILHA</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- The Modal -->
+    <div style="border-radius: 5px;" class="modal" data-wow-delay="0.8s" id="1modal">
+        <div class="modal-dialog modal-dialog-top modal-xl">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div style="background-image: url('assets/img/home.png');" class="modal-header d-flex align-items">
+                    <div class="col-md-11 col-xs-10 col-sm-10 text-left">
+                        <h5 style="color: white; font-size: 20px;" class="modal-title">Inscreva-se</h5>
+                    </div>
+                    <div class="col-md-1  col-xs-2 col-sm-2 text-right"><button style="color: white;" type="button"
+                            class="close" data-dismiss="modal">&times;</button></div>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-success" data-dismiss="modal"></button> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Modal end -->
+
+
+
+    <footer style="background-color: black; ">
+        <div class="container">
+          <div style="border-top: solid thin white;" class="row justify-content-center">
+            <div class="col-lg-8 col-md-12 col-xs-12">
+              <div class="footer-logo pt-3">
+                <!-- <img class="img-fluid pt-2 pb-2" style="height: 100px;" src="assets/img/logo-workshop.png" alt=""> -->
+                <img class="img-fluid pt-2 pb-2" style="width: 100px;" src="assetsBlogs/img/idebrasil_logo.png" alt="">
+                <p style="color: white; font-size: 13px;">EL Treinamentos Ltda<br>
+                  CNPJ: 41.911.153/0001-78<br>
+                  Rua: Aspásia de Miranda Mourão, n° 25, Estoril, Belo Horizonte, MG. CEP: 30.494-205<br>
+                  <!-- Telefone: (31) 9 9655-3830 -->
+                </p>
+              </div>
+              <div class="social-icons-footer">
+              <ul>
+                    <li class="facebook"><a href="https://www.facebook.com/leonavarroidebrasil/" target="_blank" href="3"><i class="lni-facebook-filled"></i></a></li>
+                    <li class="pinterest"><a href="https://www.instagram.com/leonavarro_idebrasil/" target="_blank" href="3"><i class="lni-instagram-filled"></i></a></li>
+                    <li class="pinterest"><a href="https://www.youtube.com/c/LeonardoNavarroIDEBRASIL/" target="_blank" href="3"><i class="lni-youtube"></i></a></li>
+                  </ul>
+              </div>
+              <div class="site-info">
+                <p>Designed and Developed by <a href="http://idebrasil.com.br" rel="nofollow">IDEBRASIL</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        const second = 1000,
+            minute = second * 60,
+            hour = minute * 60,
+            day = hour * 24;
+
+        let countDown = new Date('Oct 26, 2020 19:00:00').getTime(),
+            x = setInterval(function () {
+
+                let now = new Date().getTime(),
+                    distance = countDown - now;
+
+                document.getElementById('days').innerText = Math.floor(distance / (day)),
+                    document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+                    document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+                    document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+
+                //do something later when date is reached
+                //if (distance < 0) {
+                //  clearInterval(x);
+                //  'IT'S MY BIRTHDAY!;
+                //}
+
+            }, second)
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#modal").modal("show");
+        })
+    </script>
+
+    <!--Input mask Js-->
+    <!-- <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script> -->
+    <script src="assets/js/jquery.mask.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#phone').mask("+55(00)00000-0000");
+        });
+    </script>
+
+<script>
+    function msgInputsOff(){
+        var nome = form.firstName
+        var email = form.email
+        var phone = form.phone
+
+        var msgerro = "Campo obrigatório"
+
+        if(nome.value == ""){
+            document.getElementById("msgNome").innerHTML = msgerro;
+        }else {
+          document.getElementById("msgNome").innerHTML = "";
+        }
+        if(email.value == ""){
+            document.getElementById("msgEmail").innerHTML = msgerro;
+        }else {
+          document.getElementById("msgEmail").innerHTML = "";
+        }
+        if(phone.value == ""){
+            document.getElementById("msgCelular").innerHTML = msgerro;
+        }else {
+          document.getElementById("msgCelular").innerHTML = "";
+        }
+    }
+  </script>
+</body>
+
+</html>

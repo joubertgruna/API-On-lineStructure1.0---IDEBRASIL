@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link rel="icon" href="" type="image/png"> -->
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+  <title>CDE On-line - 8ºL </title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="cde/css/bootstrap.min.css">
+  <!-- Icon -->
+  <link rel="stylesheet" type="text/css" href="cde/fonts/line-icons.css">
+  <!-- Nivo Lightbox -->
+  <link rel="stylesheet" type="text/css" href="cde/css/nivo-lightbox.css">
+  <!-- Animate -->
+  <link rel="stylesheet" type="text/css" href="cde/css/animate.css">
+  <!-- Main Style -->
+  <link rel="stylesheet" type="text/css" href="cde/css/main.css">
+  <!-- Responsive Style -->
+  <link rel="stylesheet" type="text/css" href="cde/css/responsive.css">
+
+
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '709156546588313');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=709156546588313&ev=PageView
+  &noscript=1" />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-M6VQP9X');</script>
+  <!-- End Google Tag Manager -->
+
+<!-- Hotjar Tracking Code for http://marketing.idebrasilbh.com.br/cde-7l -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2206016,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+</head>
+
+<body>
+  <nav id="nav01" style="background-color: black; display:none;" class="navbar navbar-expand-md justify-content-center">
+    <div class="row">
+      <!-- <img class="img-fluid" style="width: 200px;" src="cde/img/idebrasil_logo.png" alt=""> -->
+      <div class="col-lg-12  col-sm-12 col-md-12 col-xs-12 text-center pt-1 pb-1">
+        <h2 id="descNavBar" style="color: white; font-size: 28px;" class="fadeInUp pt-1" data-delay="0.2s">DESCONTO DE
+          R$ 2.000,00 <span style="color: #f43243;">PRORROGADO</span>  POR TEMPO LIMITADO!</h2>
+        <ul class="text-center" style="color: white;">
+          <!-- <strong><li style="border solid thin black; font-style:italic; transform: uppercase; display:;" class="lic"><strong><span style="color: rgb(223, 223, 31); font-weight: 700;" class="spn1" id="days"></span></strong>Dia</li></strong> -->
+          <strong>
+            <li class="lic"><strong><span style="color: rgb(223, 223, 31); font-style:italic; transform: uppercase;"
+                  class="spn" id="days"></span></strong><span style="color: rgb(223, 223, 31);"></span><br><a
+                style="font-size: 20px; color: rgb(223, 223, 31); font-style:italic; transform: uppercase; font-family: 'Orbitron';">
+                Dias</a></li>
+          </strong>
+          <strong>
+            <li class="lic"><strong><span style="color: #f43243; font-style:italic; transform: uppercase;" class="spn"
+                  id="hours"></span></strong><span style="color: white;"> &nbsp;: </span><br><a
+                style="font-size: 20px; color: white; font-style:italic; transform: uppercase; font-family: 'Orbitron';">
+                Hrs</a></li>
+          </strong>
+          <strong>
+            <li class="lic"><strong><span style="color: #f43243; font-style:italic; transform: uppercase;" class="spn"
+                  id="minutes"></span></strong><span style="color: white"> &nbsp;: </span><br><a
+                style="font-size: 20px; color: white; font-style:italic; transform: uppercase; font-family: 'Orbitron';">
+                Min</a></li>
+          </strong>
+          <strong>
+            <li class="lic"><strong><span style="color: #f43243; font-style:italic; transform: uppercase;" class="spn"
+                  id="seconds"></span></strong><br><a
+                style="font-size: 20px; color: white; font-style:italic; transform: uppercase; font-family: 'Orbitron';">
+                Seg</a></li>
+          </strong>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <nav id="nav02" style="background-color: black; display: show;"
+    class="navbar navbar-expand-md justify-content-center">
+    <div class="row">
+      <!-- <img class="img-fluid" style="width: 200px;" src="cde/img/idebrasil_logo.png" alt=""> -->
+      <div class="col-lg-12  col-sm-12 col-md-12 col-xs-12 text-center pt-1 pb-1">
+        <h2 id="descNavBar2" style="color: white; font-size: 28px;" class="fadeInUp pt-1" data-delay="0.2s">DESCONTO DE
+          R$ 1.040,00 POR TEMPO LIMITADO!</h2>
+
+        <div id="imgNav" style="display: none;" class="col-lg-12">
+          <img class="img-responsive pt-2 pb-2" style="width: 170px;" src="cde/img/idebrasil_logo.png" alt="">
+        </div>
+        
+        <ul id="listNav02" class="text-center" style="color: white;">
+          <!-- <strong><li style="border solid thin black; font-style:italic; transform: uppercase; display:;" class="lic"><strong><span style="color: rgb(223, 223, 31); font-weight: 700;" class="spn1" id="days"></span></strong>Dia</li></strong> -->
+          <strong>
+            <li class="lic"><strong><span style="color: rgb(223, 223, 31); font-style:italic; transform: uppercase;"
+                  class="spn" id="days2"></span></strong><span style="color: rgb(223, 223, 31);"></span><br><a
+                style="font-size: 20px; color: rgb(223, 223, 31); font-style:italic; transform: uppercase; font-family: 'Orbitron';">
+                Dias</a></li>
+          </strong>
+          <strong>
+            <li class="lic"><strong><span style="color: #f43243; font-style:italic; transform: uppercase;" class="spn"
+                  id="hours2"></span></strong><span style="color: white;"> &nbsp;: </span><br><a
+                style="font-size: 20px; color: white; font-style:italic; transform: uppercase; font-family: 'Orbitron';">
+                Hrs</a></li>
+          </strong>
+          <strong>
+            <li class="lic"><strong><span style="color: #f43243; font-style:italic; transform: uppercase;" class="spn"
+                  id="minutes2"></span></strong><span style="color: white"> &nbsp;: </span><br><a
+                style="font-size: 20px; color: white; font-style:italic; transform: uppercase; font-family: 'Orbitron';">
+                Min</a></li>
+          </strong>
+          <strong>
+            <li class="lic"><strong><span style="color: #f43243; font-style:italic; transform: uppercase;" class="spn"
+                  id="seconds2"></span></strong><br><a
+                style="font-size: 20px; color: white; font-style:italic; transform: uppercase; font-family: 'Orbitron';">
+                Seg</a></li>
+          </strong>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Header Area wrapper Starts -->
+  <header id="header-wrap">
+    <!-- Home main Start -->
+    <div id="hero-area" style="background-color: white;">
+      <!-- <div class="overlay"></div> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 text-center">
+            <h2 class="pt-4 pb-2" style="color: black; text-align: center; font-size: 27px;"><strong>Em 60 dias
+                seu lucro vai aumentar 50% e você<br> terá total controle do seu dinheiro.</strong></h2>
+            <hr>
+          </div>
+        </div>
+        <!--Segunda row -->
+        <div class="row">
+          <!--video home -->
+          <div class="col-lg-12 col-sm-12 text-center pt-2 pb-2">
+            <!-- <img class="img-fluid" style="" src="assets/img/oferta_modulo_24h.png" alt="">  -->
+            <!--<iframe width="715" height="415" src="https://www.youtube.com/embed/SIDSLJFoluE" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>-->
+
+              <div id="btnOferta" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center pt-4 pb-4">
+                <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common">QUERO ME
+                  INSCREVER</a>
+              </div>
+          </div>
+
+
+          <!-- Lucrometro --
+          <div style="border-radius: 10px;" class="col-lg-4 col-sm-12 text-center pt-2 mb-2 card">
+            <!-- DISPLAY NONE--
+            <!-- <img class="img-fluid" style="" src="cde/img/bonus_extra_2_lote.png" alt="">  --
+            <div class="row">
+              <div class="card-body">
+                <h5 class="" style="border-bottom: #3d3d3d solid thin; color: black; font-size: 18px;">
+                  <strong>LUCROMETRO</strong></h5>
+                <h6 class="pt-1" style="color: black; text-align: center; font-size: 15px;"><strong> Digite abaixo o seu
+                    <span data-toggle="tooltip"
+                      title="Faturamento Médio Mensal é a média mensal do valor bruto das suas vendas realizadas nos últimos 6 meses"
+                      style="border-bottom: solid thin black;">faturamento médio mensal</span>, e veja o LUCRO que
+                    você TERÁ A MAIS, ao aplicar o nosso método de gestão.</strong></h6>
+                <!--Faturamento--
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <label style="color: #302f2e; font-size: 12px; border-bottom: solid thin #3d3d3d;"
+                    for="#email">Faturamento médio mensal </label>
+                  <input
+                    style="border-bottom: solid thin #9b9b9b; color: #302f2e; text-align: center; border-radius: 18px;"
+                    id="primeiro-valor" type="text" name="primeiro-valor" class="form-control"
+                    placeholder="(APENAS NÚMEROS) *">
+                  <button style="margin-top: 2%; text-align: center;" type="" name=""
+                    class="btn btn-sm btn-common">Calcular Lucro </button>
+                  <hr>
+                </div>
+                <!--Resultado 01--
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h6 style="color: black; text-align: center; font-size: 13px;"><strong>Este é o LUCRO que você TERÁ
+                      A MAIS, com a aplicação do CDE On-line.</strong></h6>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <!--Resultado 01--
+                  <label style="color: #302f2e; font-size: 12px; border-bottom: solid thin #3d3d3d;" for="#email">Lucro
+                    Mensal</label>
+                  <input disabled
+                    style="border: solid thin rgb(21, 126, 39); color: rgb(21, 126, 39); text-align: center; border-radius: 18px;"
+                    id="resultado1" type="text" name="resultado1" class="form-control" placeholder="Resultado Mensal">
+
+                  <!--Resultado 02--
+                  <label style="color: #302f2e; font-size: 12px; border-bottom: solid thin #3d3d3d;"
+                    for="#telefone">Lucro acumulado em 12 Meses</label>
+                  <input disabled
+                    style="border: solid thin rgb(21, 126, 39); color: rgb(21, 126, 39); text-align: center; border-radius: 18px;"
+                    id="resultado2" type="text" name="resultado2" class="form-control" placeholder="Resultado 12 meses">
+
+                  <!--Resultado 03--
+                  <label style="color: #302f2e; font-size: 12px; border-bottom: solid thin #3d3d3d;"
+                    for="#telefone">Lucro acumulado em 5 anos</label>
+                  <input disabled
+                    style="border: solid thin rgb(21, 126, 39); color: rgb(21, 126, 39); text-align: center; border-radius: 18px;"
+                    id="resultado3" type="text" name="resultado3" class="form-control" placeholder="Resultado 5 anos">
+                </div>
+                <hr>
+                <h6 style="color: black; text-align: center; font-size: 15px;"><strong>Se o seu lucro não aumentar
+                    conforme o valor acima, após aplicar o CDE On-line, devolveremos o seu valor TOTAL
+                    investido.</strong></h6>
+              </div>
+            </div>
+          </div>-->
+
+        </div>
+      </div>
+    </div>
+    <!-- Hero Area End -->
+
+        <!-- Seção Oferta 1  -->
+        <section style="display: none;" id="oferta01" class="text-center">
+          <div class="container pb-4">
+            <div class="row">
+              <div class="col-12 text-center">
+                <hr>
+                <!-- <h4 class=" pt-1" data-delay="0.2s">Qual o valor do investimento?</h4> -->
+                <h3 style="color: #00CE48;" class="fadeInUp pt-1" data-delay="0.2s">DESCONTO DE R$ 2.000,00</h3>
+                <h3><span style="font-weight: 700; color: black;">ESTA OFERTA TERMINA DIA 22/09/2021 ÀS 23:59.</span></h3>
+              </div>
+              <div class="col-lg-6">
+                <img style="width: 600px;" class="img-fluid" src="cde/img/oferta_home_lp_venda.png" alt=""><br>
+              </div>
+              <div class="col-lg-6">
+                <img style="width: 600px;" class="img-fluid" src="cde/img/modulos_lp_venda_2_lote.png" alt=""><br>
+                <div id="btnOferta3">
+                  <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common mt-4 mb-4"
+                    data-delay="0.5s">QUERO ME INSCREVER</a>
+                </div>
+              </div>
+    
+              <div class="col-lg-12">
+                <div style="display: none;" id="btnModal3">
+                  <span style="color: white;"><a href="" data-toggle="modal" data-target="#form-cde"
+                      class="btn btn-lg btn-common mt-4 mb-4" data-delay="0.5s">QUERO ME INSCREVER
+                    </a></span>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Team Section End -->
+    
+        <!-- Seção Oferta 2 -->
+        <section style="display: block;" id="oferta1.1" class="text-center">
+          <div class="container pb-4">
+            <div class="row">
+              <div class="col-12 text-center">
+                <hr>
+                <!-- <h4 class=" pt-1" data-delay="0.2s">Qual o valor do investimento?</h4> -->
+                <h3 style="color: #00CE48;" class="fadeInUp pt-1" data-delay="0.2s">DESCONTO DE R$ 1.040,00</h3>
+                <h3><span style="font-weight: 700; color: black;">ESTA OFERTA TERMINA DIA 22/09/2021 ÀS 23:59.</span></h3>
+              </div>
+              <div class="col-lg-6">
+                <img style="width: 600px;" class="img-fluid" src="cde/img/oferta_home_lp_venda_2_lote.png" alt=""><br>
+              </div>
+              <div class="col-lg-6">
+                <img class="img-fluid" src="cde/img/modulos_lp_venda_2_lote.png" alt=""><br>
+                <div id="btnOferta2">
+                  <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common mt-4 mb-4"
+                    data-delay="0.5s">QUERO ME INSCREVER</a>
+                </div>
+              </div>
+              
+              <div style="display: none;" id="btnModal2" class="col-lg-12">
+                <span style="color: white;"><a href="" data-toggle="modal" data-target="#form-cde"
+                    class="btn btn-lg btn-common mt-4 mb-4" data-delay="0.5s">QUERO ME INSCREVER
+                  </a></span>
+              </div>
+    
+            </div>
+        </section>
+        <!-- Team Section End -->
+
+    <!-- Section Curso Combo  -->
+    <section style="background-color: #e0e0e0" id="team" class="text-center">
+      <div class="container">
+        <!-- <div style="border-bottom: solid thin #9b9b9b;" class="row justify-content-bt"> -->
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="section-title-header text-center pt-2">
+              <h2 class="section-title fadeInUp text-center" data-delay="0.2s">APÓS O CURSO VOCÊ</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <!-- <img class="img-fluid" src="cde/img/descricao_modulos_lpvenda.png" alt=""> -->
+            <h5 style="font-size: 24px; text-align: left;"> ✅ Aumentará seu lucro sem precisar vender mais; </h5>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Saberá qual é seu Lucro Real Mensal; </h4>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Formará seu Preço de Venda corretamente; </h4>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Terá um preço altamente competitivo e dominará o mercado;
+            </h4>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Terá total controle dos custos; </h4>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Terá dinheiro em caixa durante 30 dias do mês; </h4>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Saberá como separar dinheiro da Pessoa Física x Pessoa
+              Jurídica; </h4>
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Terá um pró-labore no final de cada mês; </h4>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Controlará suas contas a pagar e receber; </h4>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Fará um planejamento financeiro para 12 meses; </h4>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Pagará as contas em dia e dormir em paz; </h4>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Acumulará lucro ano após ano; </h4>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Conseguirá tirar férias todos os anos; </h4>
+            <h4 style="font-size: 24px; text-align: left;"> ✅ Passará mais tempo com sua família. </h4>
+          </div>
+          <div id="btnOfertaHome2" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center pt-4 pb-4">
+            <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common">QUERO ME
+              INSCREVER</a>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <!-- Section Curso Combo  -->
+    <section id="team" style="background-color: #000000;">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="section-title-header text-center pt-2">
+            <h2 style="color: white;" class="section-title fadeInUp" data-delay="0.2s">O QUE VOCÊ VAI APRENDER</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-bt">
+          <div class="col-lg-6 col-md-6 col-xs-6 pb-4">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+                <img class="img-fluid" src="cde/img/conteudo_programatico_part1_lpvenda.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-6">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-xs-12">
+                <img class="img-fluid" src="cde/img/conteudo_programatico_part2_lpvenda.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div id="btnOfertaHome3" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center pt-2 pb-4">
+            <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common">QUERO ME
+              INSCREVER</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- ** OFERTA 24H ** -->
+
+    <!-- Section Curso Combo  -->
+    <!-- <section style="display: block;" id="bonus1-1" class="text-center pb-1">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4 class="pt-3" style="font-size: 20px;"><strong>Bônus 1</strong></h4>
+            <h2 class="section-title fadeInUp" data-delay="0.2s">MENTORIA</h2>
+          </div>
+          <div class="col-lg-6 col-sm-12 text-center pt-4"> -->
+            <!-- <img class="img-fluid" style="" src="assets/img/oferta_modulo_24h.png" alt="">  -->
+        
+              <!-- <iframe width="515" height="315" src="https://www.youtube.com/embed/DpBFmdkQzZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+            <!-- <div id="btnOferta10" class="col-lg-12 text-center pt-2">
+              <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common mt-4 mb-2">QUERO ME
+                INSCREVER</a>
+            </div> -->
+
+          <!-- </div>
+          <div class="col-lg-6 col-sm-12 text-center pt-1">
+            <img style="width: 450px;" class="img-fluid" src="cde/img/mentoria_lp_venda.png" alt="">
+          </div> -->
+        <!-- </div>
+        <hr>
+      </div>
+    </section> -->
+    <!-- Team Section End -->
+
+    <!-- Section Curso Combo  -->
+    <section style="display: block;" id="bonus2-1" class="text-center pb-2 mt-1">
+      <!-- DISPLAY NONE-->
+      <div class="container pt-2 pb-1">
+        <div class="row justify-content-bt">
+          <div class="col-lg-12 text-center">
+            <h4 style="font-size: 20px;"><strong>Bônus 1 </strong></h4>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 pt-2 pb-2">
+            <h2 class="section-title fadeInUp" data-delay="0.2s">PLANILHA ELETRÔNICA</h2>
+            <div class="fadeInUp" data-delay="0.8s">
+              <div style="text-align: left;" class="pt-1">
+                <p class="pt-1" style="font-size: 20px;">Você receberá uma planilha eletrônica que fará 100% da gestão
+                  de sua empresa, terá todos os números em
+                  suas mãos e conseguirá tomar decisões corretas e com precisão para aumentar o seu Lucro.</p><br>
+                <p style="font-size: 20px;">Nossa planilha é extremamente simples de manusear. Você não precisa ser
+                  nenhum expert.</p><br>
+                <p style="font-size: 20px;">ESTA FERRAMENTA FAZ COISAS QUE NEM MESMO SOFTWARES ALTAMENTE RECONHECIDOS NO
+                  MERCADO, CONSEGUEM FAZER.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-xs-12">
+
+            <div style="color: #292929;" id="demo" class="carousel slide" data-ride="carousel">
+              <div class="section-title-header text-center">
+                <h2 class="section-title fadeInUp pt-2" data-delay="0.2s">IMAGENS REAIS DA PLANILHA</h2>
+              </div>
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-fluid" src="cde/img/planilha/img1planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img2planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img3planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img4planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img5planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img6planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img7planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img8planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img9planilha.png" alt="">
+                </div>
+              </div>
+              <!-- Left and right controls -->
+              <a style="color: black;" class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span style="color: black"><i class="lni lni-shift-left lni-lg"></i></span>
+              </a>
+              <a style="color: black;" class="carousel-control-next" href="#demo" data-slide="next">
+                <span style="color: black;"><i class="lni lni-shift-right lni-lg"></i></span>
+              </a>
+
+            </div>
+
+          </div>
+          <div class="col-lg-12">
+            <div class="container">
+              <hr>
+              <div class="section-title-header text-center">
+                <h2 class="section-title fadeInUp pt-2" data-delay="0.2s">O QUE A PLANILHA FAZ </h2>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-xs-12">
+                  <!-- <img class="img-fluid" src="cde/img/descricao_modulos_lpvenda.png" alt=""> -->
+                  <h5 style="font-size: 20px; text-align: left;"> • Dashboard com os principais indicadores; </h5>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula seu Lucro Real Mensal de 1 ano; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula seu Ponto de Equilíbrio; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Forma automaticamente o Preço de Venda de 100.000
+                    produtos; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Movimento de Caixa diário; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Fluxo de Caixa de 180 dias; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Fluxo de Caixa 12 meses; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Planejamento Financeiro com Plano de Ação detalhado;
+                  </h4>
+                </div>
+                <div class="col-lg-6 col-md-12 col-xs-12">
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula os custos dos funcionários; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula os custos de Veículos; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula depreciação dos seus equipamentos; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Mostra sua capacidade de pagamento de 90 dias; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula sua rentabilidade; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula seu Índice de Endividamento; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula sua Necessidade de Capital de Giro; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula seu Capital de Giro Disponível; </h4>
+                </div>
+
+                <div id="btnOferta9" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center pt-4 pb-4">
+                  <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common">QUERO ME
+                    INSCREVER</a>
+                </div>
+
+
+              </div>
+              <!-- </div> -->
+            </div>
+          </div>
+          <hr>
+        </div>
+
+
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Section Curso Combo  -->
+    <section style="display: block;" id="bonus3-1" class="text-center">
+      <div class="container pt-2 pb-2">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <hr>
+            <h4 style="font-size: 20px;"><strong>Bônus 2 </strong></h4>
+            <h2 class="section-title" style="color: #000000;"><strong>GARANTIA DE RESULTADO</strong></h2>
+          </div>
+          <div class="col-lg-6 col-sm-12 text-center pt-4">
+            <!-- <img class="img-fluid" style="" src="assets/img/oferta_modulo_24h.png" alt="">  -->
+            <iframe width="515" height="315" src="https://www.youtube.com/embed/K6WxT4AgbWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div id="btnOferta8" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center pt-1 pb-3">
+              <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common-2 mt-4"
+                data-delay="0.5s">QUERO ME INSCREVER</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-xs-12 text-center">
+            <div class="fadeInUp" data-delay="0.3s">
+              <img style="width: 470px;" class="img-fluid" src="cde/img/bonus3_lpvenda.png" alt="">
+              <br><a href="https://materialdeapoio.s3.sa-east-1.amazonaws.com/Termo+de+Compromisso+IDEBRASIL.pdf" style="font-style: unset; border-bottom: solid thin;">
+                Termo de Compromisso Registrado em Cartório.</a>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-6 col-md-6 col-xs-12 text-center pt-4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Oz7D2QUOW_c" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div> -->
+
+
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+
+    <!-- ** OFERTA APÓS 24H DE CARRINHO ABERTO ** -->
+
+    <!-- Section Curso Combo  -->
+    <section style="display: none;" id="bonus1-2" class="text-center pb-2 mt-1">
+      <!-- DISPLAY NONE-->
+      <div class="container pt-2 pb-1">
+        <div class="row justify-content-bt">
+          <div class="col-lg-12 text-center">
+            <h4 style="font-size: 20px;"><strong>Bônus 1 </strong></h4>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 pt-2 pb-2">
+            <h2 class="section-title fadeInUp" data-delay="0.2s">PLANILHA ELETRÔNICA</h2>
+            <div class="fadeInUp" data-delay="0.8s">
+              <div style="text-align: left;" class="pt-1">
+                <p class="pt-1" style="font-size: 20px;">Você receberá uma planilha eletrônica que fará 100% da gestão
+                  de sua empresa, terá todos os números em
+                  suas mãos e conseguirá tomar decisões corretas e com precisão para aumentar o seu Lucro.</p><br>
+                <p style="font-size: 20px;">Nossa planilha é extremamente simples de manusear. Você não precisa ser
+                  nenhum expert.</p><br>
+                <p style="font-size: 20px;">ESTA FERRAMENTA FAZ COISAS QUE NEM MESMO SOFTWARES ALTAMENTE RECONHECIDOS NO
+                  MERCADO, CONSEGUEM FAZER.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-xs-12">
+
+            <div style="color: #292929;" id="demo" class="carousel slide" data-ride="carousel">
+              <div class="section-title-header text-center">
+                <h2 class="section-title fadeInUp pt-2" data-delay="0.2s">IMAGENS REAIS DA PLANILHA</h2>
+              </div>
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-fluid" src="cde/img/planilha/img1planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img2planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img3planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img4planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img5planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img6planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img7planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img8planilha.png" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="cde/img/planilha/img9planilha.png" alt="">
+                </div>
+              </div>
+              <!-- Left and right controls -->
+              <a style="color: black;" class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span style="color: black"><i class="lni lni-shift-left lni-lg"></i></span>
+              </a>
+              <a style="color: black;" class="carousel-control-next" href="#demo" data-slide="next">
+                <span style="color: black;"><i class="lni lni-shift-right lni-lg"></i></span>
+              </a>
+
+            </div>
+
+          </div>
+          <div class="col-lg-12">
+            <div class="container">
+              <hr>
+              <div class="section-title-header text-center">
+                <h2 class="section-title fadeInUp pt-2" data-delay="0.2s">O QUE A PLANILHA FAZ </h2>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-xs-12">
+                  <!-- <img class="img-fluid" src="cde/img/descricao_modulos_lpvenda.png" alt=""> -->
+                  <h5 style="font-size: 20px; text-align: left;"> • Dashboard com os principais indicadores; </h5>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula seu Lucro Real Mensal de 1 ano; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula seu Ponto de Equilíbrio; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Forma automaticamente o Preço de Venda de 100.000
+                    produtos; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Movimento de Caixa diário; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Fluxo de Caixa de 180 dias; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Fluxo de Caixa 12 meses; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Planejamento Financeiro com Plano de Ação detalhado;
+                  </h4>
+                </div>
+                <div class="col-lg-6 col-md-12 col-xs-12">
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula os custos dos funcionários; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula os custos de Veículos; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula depreciação dos seus equipamentos; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Mostra sua capacidade de pagamento de 90 dias; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula sua rentabilidade; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula seu Índice de Endividamento; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula sua Necessidade de Capital de Giro; </h4>
+                  <h4 style="font-size: 20px; text-align: left;"> • Calcula seu Capital de Giro Disponível; </h4>
+                </div>
+
+                <div id="btnOferta7" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center pt-4 pb-4">
+                  <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common">QUERO ME
+                    INSCREVER</a>
+                </div>
+
+              </div>
+              <!-- </div> -->
+            </div>
+          </div>
+          <hr>
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Section Curso Combo  -->
+    <section style="display: none;" id="bonus2-2" class="text-center">
+      <!-- DISPLAY NONE-->
+      <div class="container pt-2 pb-2">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <hr>
+            <h4 style="font-size: 20px;"><strong>Bônus 2 </strong></h4>
+            <h2 class="section-title" style="color: #000000;"><strong>GARANTIA DE RESULTADO</strong></h2>
+          </div>
+          <div class="col-lg-6 col-sm-12 text-center pt-4">
+            <!-- <img class="img-fluid" style="" src="assets/img/oferta_modulo_24h.png" alt="">  -->
+            <iframe width="515" height="315" src="https://www.youtube.com/embed/K6WxT4AgbWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div id="btnOferta6" class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center pt-1 pb-3">
+              <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common-2 mt-4"
+                data-delay="0.5s">QUERO ME INSCREVER</a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-xs-12 text-center">
+            <div class="fadeInUp" data-delay="0.3s">
+              <img style="width: 470px;" class="img-fluid" src="cde/img/bonus3_lpvenda.png" alt="">
+              <br><a href="https://materialdeapoio.s3.sa-east-1.amazonaws.com/Termo+de+Compromisso+IDEBRASIL.pdf" style="font-style: unset; border-bottom: solid thin;">
+                Termo de Compromisso Registrado em Cartório.</a>
+            </div>
+            
+          </div>
+
+          <!-- <div class="col-lg-6 col-md-6 col-xs-12 text-center pt-4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Oz7D2QUOW_c" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div> -->
+
+
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+
+    <!-- Team Section Start -->
+    <section id="team" style="background-color: #e4e4e4;" class="section-padding text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="section-title-header text-center">
+              <h4 class="section-title fadeInUp" data-delay="0.2s">BENEFÍCIOS DO CURSO</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-bt">
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <div class="info-text">
+                <img style="width: 90px;" src="cde/img/icons/exdinamicos.png" alt="">
+                <h3><a href="#">Exercícios dinâmicos e práticos</a></h3>
+                <p style="color: black;">Você aprenderá as estratégias e ferramentas de gestão, praticando em uma
+                  <strong>EMPRESA REAL,
+                  </strong>exatamente como funciona no dia a dia da sua empresa
+                </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <div class="info-text">
+                <img class="img-fluid" style="width: 90px;" src="cde/img/icons/qualquernicho.png" alt="">
+                <h3><a href="#">Serve para qualquer nicho de mercado </a></h3>
+                <p style="color: black;">O curso foi desenvolvido para qualquer ramo de atividade. Comércio atacadista,
+                  ou varejista, prestador de serviço, profissional liberal ou indústria. </p>
+              </div>
+            </div>
+
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <div class="info-text">
+                <img class="img-fluid" style="width: 90px;" src="cde/img/icons/linguagemsimples.png" alt="">
+                <h3><a href="#">Linguagem simples
+                  </a></h3>
+                <p style="color: black;">Usamos uma linguagem simples do dia a dia do empresário, fácil de entender, sem
+                  termos técnicos.
+                </p>
+              </div>
+            </div>
+
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <div class="info-text">
+                <img class="img-fluid" style="width: 90px;" src="cde/img/icons/100online.png" alt="">
+                <h3><a href="#">100% On-line</a></h3>
+                <p style="color: black;">Você pode assistir quantas vezes quiser, quando quiser, onde quiser, em
+                  qualquer dispositivo.
+
+                </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <div class="info-text">
+                <img class="img-fluid" style="width: 90px;" src="cde/img/icons/prerequisito.png" alt="">
+                <h3><a href="#">Pré-requisito </a></h3>
+                <p style="color: black;">Não existe nenhum pré-requisito, você não precisa ter feito faculdade ou
+                  qualquer outro curso para implantar o método.
+
+                </p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <div class="info-text">
+                <img class="img-fluid" style="width: 90px;" src="cde/img/icons/resultados.png" alt="">
+                <h3><a href="#">Garantia de resultado</a></h3>
+                <p style="color: black;">Seu lucro vai aumentar ou devolveremos o <strong style="color: #cb4343;"> valor
+                    TOTAL investido.</strong><br><a href="https://materialdeapoio.s3.sa-east-1.amazonaws.com/Termo+de+Compromisso+IDEBRASIL.pdf" style="font-style: unset; border-bottom: solid thin;">
+                    Termo de Compromisso Registrado em Cartório.</a></p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+        </div>
+
+        <div id="btnOferta5">
+          <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common mt-4"
+            data-delay="0.5s">QUERO ME INSCREVER</a>
+        </div>
+
+        <div style="display: none;" id="btnModal5">
+          <span style="color: white;">
+            <a href="" data-toggle="modal" data-target="#form-cde" class="btn btn-lg btn-common mt-4 mb-4"
+              data-delay="0.5s">QUERO ME INSCREVER </a>
+          </span>
+        </div>
+
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Team Section Start -->
+    <section id="team" class="text-center pb-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h2 class="section-title fadeInUp pt-3" data-delay="0.2s">RESULTADOS REAIS</h2>
+              <h6 class="fadeInDown" data-delay="0.2s">40.000 empresários já foram impactados com nosso
+                método.</h6>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-bt">
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/K7cKAG63ydY" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <div class="info-text">
+                <h3>Luiz Guilherme</h3>
+                <p>Frios Schroeder</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/_3LBZ7V4trA" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <div class="info-text">
+                <h3>Rafael e Núbia </h3>
+                <p>Comercial Tintas</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/5Zpe4svYsvU" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <div class="info-text">
+                <h3>Juliana</h3>
+                <p>Restaurante Barroco</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/bf87iCEqUY4" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <div class="info-text">
+                <h3>Ana Luiza</h3>
+                <p>Duarte Componentes</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/FmGj-JVP5bE" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <div class="info-text">
+                <h3>Fabio Henrique</h3>
+                <p>Mecânica Auto Data</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/KhRID7PBjsQ" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <div class="info-text">
+                <h3>Graciane</h3>
+                <p>Auto Mecânica Samuel</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/ThdEqghJKyU" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <div class="info-text">
+                <h3>Gustavo</h3>
+                <p>Papelaria Toledo</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.3s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/6p9fofJdzLc" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+              <div class="info-text">
+                <h3>Patrícia</h3>
+                <p>Hospital veterinário Mundo Animal</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.8s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/JHH8a44jDfo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+              <div class="info-text">
+                <h3>Guilherme Ferrão</h3>
+                <p>Premium Academia</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="1s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/ROHouPMZnsk" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+              <div class="info-text">
+                <h3>Rafael</h3>
+                <p>Jujuba Brownies</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="1.2s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/SZdf0vMmZBc" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+              <div class="info-text">
+                <h3>Ramon Rodrigues</h3>
+                <p>Restaurante Mega Beer</p>
+
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="1.4s">
+              <iframe width="350" height="185" src="https://www.youtube.com/embed/-Xxq600TPOc" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+              <div class="info-text">
+                <h3>Breno Alves</h3>
+                <p>Auto Molas Imperatriz</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <hr>
+        </div>
+
+        <div id="btnOferta4">
+          <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common mt-4 mb-4"
+            data-delay="0.5s">QUERO ME INSCREVER</a>
+        </div>
+
+        <div style="display: none;" id="btnModal4">
+          <span style="color: white;">
+            <a href="" data-toggle="modal" data-target="#form-cde" class="btn btn-lg btn-common mt-4 mb-4"
+              data-delay="0.5s">QUERO ME INSCREVER </a>
+          </span>
+        </div>
+
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+
+    <!-- Seção Oferta 1  -->
+    <section style="display: none;" id="oferta1.2" class="text-center">
+      <div class="container pb-4">
+        <div class="row">
+          <div class="col-12 text-center">
+            <hr>
+            <!-- <h4 class=" pt-1" data-delay="0.2s">Qual o valor do investimento?</h4> -->
+            <h3 style="color: #00CE48;" class="fadeInUp pt-1" data-delay="0.2s">DESCONTO DE R$ 2.000,00</h3>
+            <h3><span style="font-weight: 700; color: black;">ESTA OFERTA TERMINA DIA 22/09/2021 ÀS 23:59.</span></h3>
+            
+          </div>
+          <div class="col-lg-6">
+            <img style="width: 600px;" class="img-fluid" src="cde/img/oferta_home_lp_venda.png" alt=""><br>
+          </div>
+          <div class="col-lg-6">
+            <img style="width: 600px;" class="img-fluid" src="cde/img/modulos_lp_venda_2_lote.png" alt=""><br>
+            <div id="btnOferta3">
+              <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common mt-4 mb-4"
+                data-delay="0.5s">QUERO ME INSCREVER</a>
+            </div>
+          </div>
+          
+          <div class="col-lg-12">
+            <div style="display: none;" id="btnModal3">
+              <span style="color: white;"><a href="" data-toggle="modal" data-target="#form-cde"
+                  class="btn btn-lg btn-common mt-4 mb-4" data-delay="0.5s">QUERO ME INSCREVER
+                </a></span>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Seção Oferta 2 -->
+    <section style="display: blocks;" id="oferta02" class="text-center">
+      <div class="container pb-4">
+        <div class="row">
+          <div class="col-12 text-center">
+            <hr>
+            <!-- <h4 class=" pt-1" data-delay="0.2s">Qual o valor do investimento?</h4> -->
+            <h3 style="color: #00CE48;" class="fadeInUp pt-1" data-delay="0.2s">DESCONTO DE R$ 1.040,00</h3>
+            <h3><span style="font-weight: 700; color: black;">ESTA OFERTA TERMINA DIA 22/07/2021 ÀS 23:59.</span></h3>
+          </div>
+          <div class="col-lg-6">
+            <img style="width: 600px;" class="img-fluid" src="cde/img/oferta_home_lp_venda_2_lote.png" alt=""><br>
+          </div>
+          <div class="col-lg-6">
+            <img  class="img-fluid" src="cde/img/modulos_lp_venda_2_lote.png" alt=""><br>
+            <div id="btnOferta2">
+              <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common mt-4 mb-4"
+                data-delay="0.5s">QUERO ME INSCREVER</a>
+            </div>
+          </div>
+          
+          <div style="display: none;" id="btnModal2" class="col-lg-12">
+            <span style="color: white;"><a href="" data-toggle="modal" data-target="#form-cde"
+                class="btn btn-lg btn-common mt-4 mb-4" data-delay="0.5s">QUERO ME INSCREVER
+              </a></span>
+          </div>
+
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Team Section Start -->
+    <section id="team" class="section-padding text-center" style="background-color: #ff353e;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h2 class="section-title fadeInUp" data-delay="0.2s"> <a style="color: white; font-size: 40px;">Para quem
+                  é o Curso</a> </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-bt">
+          <div class="col-lg-12 col-md-6 col-xs-12 text-center">
+            <!-- Team Item Starts -->
+            <div class="team-item fadeInUp" data-delay="0.4s">
+              <div class="info-text">
+                <p style="color: white; font-size: 18px;">O curso é destinado para: empresários, sucessores, futuros
+                  empreendedores,
+                  gerentes, supervisores e coordenadores de micro, pequenas e médias empresas, profissionais liberais e
+                  micros empreendedores que desejam ter o controle absoluto de sua empresa, além de colaboradores das
+                  áreas financeira e administrativa que queiram dar maior apoio aos empresários</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+            <div id="btnOferta1">
+              <a href="https://alunos.idebrasilbh.com.br/pagamento/47/8l" class="btn btn-lg btn-common mt-4"
+                data-delay="0.5s">QUERO ME INSCREVER
+              </a>
+            </div>
+
+          </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Section Curso Combo  -->
+    <section id="team" class="text-center">
+      <div class="container-fluid">
+        <div class="section-title-header text-center">
+          <h2 class="section-title pt-3 fadeInUp" data-delay="0.2s">QUEM SOMOS</h2>
+        </div>
+        <div class="row justify-content-left">
+          <div style="padding-right: 10px;" class="col-lg-6 col-md-6 col-xs-12">
+            <img class="img-fluid" src="cde/img/quemsomos.png" alt="">
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-xs-12 text-center">
+            <div class="fadeInUp pt-4 text-center data-delay=0.3s">
+              <div style="padding-left: 30px; padding-right: 30px;" class="row text-left">
+                <div class="text-left">
+                  <h6 class="pt-4" style="font-size: 25px; color: #cb4343;"><strong>O ESPECIALISTA</strong></h6>
+                </div>
+
+                <p>Leonardo Navarro é empresário, graduado em administração e CEO do IDEBRASIL. Um dos maiores
+                  especialistas de gestão do Brasil, já capacitou 15 mil empresários de pequenas e médias empresas, além
+                  de executivos de grandes corporações como: Todeschini, China in Box, Ghendai, Italinea, Carraro,
+                  Criare entre outras.<br><br>
+
+                  Ministrou mais de 500 palestras em 26 estados do Brasil em parceria com várias entidades de classe
+                  como CDL's, Associações Comerciais, Federações de Industrias, Federações de Comércio e
+                  Sindicatos.<br><br>
+
+                  Há 16 anos, dedica sua vida ajudando empresários realizarem seus sonhos e alcançarem o tão desejado
+                  sucesso profissional, utilizando um método de gestão simples e prático, que já mudou a história de
+                  milhares de pessoas.</p>
+              </div>
+
+              <div style="padding-left: 30px; padding-right: 30px;" class="row text-left">
+                <div class="text-left">
+                  <h6 class="pt-4" style="font-size: 25px; color: #cb4343;"><strong>O INSTITUTO</strong></h6>
+                </div>
+
+                <p>O<a style="color: #cb4343;"> IDEBRASIL</a> "Instituto de Desenvolvimento Empresarial" tem a missão de
+                  “compartilhar conhecimento
+                  de gestão com empresários de pequenas e médias empresas, de forma simples e prática, a fim de gerar
+                  DESENVOLVIMENTO”.</p>
+              </div>
+
+              <div style="padding-left: 30px; padding-right: 30px;" class="row pb-4">
+                <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                  <img style="width: 90px;" class="img-fluid" src="cde/img/2paises.png" alt=""><br>
+                  <span><strong><a style="color: #cb4343;">2</a><br> Paises</strong> </span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                  <img style="width: 90px;" class="img-fluid" src="cde/img/23estados.png" alt=""><br>
+                  <span><strong><a style="color: #cb4343;">23</a><br> Estados Brasileiros</strong> </span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                  <img style="width: 90px;" class="img-fluid" src="cde/img/pp_palestras.png" alt=""><br>
+                  <span><strong><a style="color: #cb4343;">200.000</a><br> Participantes em palestras</strong> </span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                  <img style="width: 90px;" class="img-fluid" src="cde/img/alunos.png" alt=""><br>
+                  <span><strong><a style="color: #cb4343;">30.000</a><br> Empresários impactados</strong> </span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Section Curso Combo  -->
+    <section id="team" class="section-padding text-center">
+      <div style="border-top: solid thin #292929;" class="container">
+        <div class="row justify-content-center">
+          <div class="section-title-header text-center">
+            <h2 class="section-title pt-3 fadeInUp" data-delay="0.2s">PERGUNTAS FREQUENTES</h2>
+          </div>
+          <div class="col-lg-12 col-md-12 col-xs-12 text-left">
+            <div id="accordion">
+              <div class="card">
+                <div style="background-color: #292929;" class="card-header">
+                  <a style="text-decoration: none; color: white;" class="card-link" data-toggle="collapse"
+                    href="#collapseOne">
+                    <i class="lni-chevron-right text-left"></i> Quais os resultados dos empresários que aplicam o curso?
+                  </a>
+                </div>
+                <div id="collapseOne" class="collapse" data-parent="#accordion">
+                  <div class="card-body text-left">
+                    Todo o curso tem o objetivo de fazer você aumentar
+                    o seu LUCRO e equalizar o seu caixa. Os empresários passam a ter total domínio das informações de
+                    suas empresas e aprendem as estratégias de gestão mais avançadas que existem. Em menos dia 30 dias
+                    começam a ver o seu caixa positivo e o seu lucro crescer.
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div style="background-color: #292929;" class="card-header">
+                  <a style="text-decoration: none; color: white;" class="collapsed card-link" data-toggle="collapse"
+                    href="#collapseTwo">
+                    <i class="lni-chevron-right text-left"></i> Não sou formado e nunca fiz se quer um curso de gestão,
+                    mesmo
+                    assim conseguirei acompanhar?
+                  </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body text-left">
+                    SIM. A grande maioria dos empresários de pequenas e médias empresas do Brasil nunca fizeram
+                    faculdade. Boa parte dos empreendedores brasileiros, começam a trabalhar muito cedo e não sobra
+                    tempo para se capacitarem. Por isso, nosso método foi desenvolvido dentro da linguagem do dia a dia
+                    das empresas e não em uma linguagem técnica, cheia de termos importados. Nossa linguagem é simples e
+                    direta.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div style="background-color: #292929;" class="card-header">
+                  <a style="text-decoration: none; color: white;" class="collapsed card-link" data-toggle="collapse"
+                    href="#collapseThree">
+                    <i class="lni-chevron-right text-left"></i> Sou formado, sou pós-graduado, já fiz vários cursos de
+                    gestão,
+                    mesmo assim, o curso acrescentará,
+                    mais alguma coisa?
+                  </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                  <div class="card-body text-left">
+                    SIM!!! Nós temos um método de gestão exclusivo, testado e aprovado por 35.000 empresários dos mais
+                    diversos segmentos e tamanhos de empresa. Em torno de 50% destes empresários são graduados e ou pós
+                    graduados em algum curso de gestão. Este é o nosso grande diferencial. Enquanto as grandes
+                    instituições de ensino estão preocupadas em passar um conteúdo que atenda a uma carga horária do MEC
+                    e entregar um diploma, “NÓS ESTAMOS PREOCUPADOS EM GERAR RESULTADO, TE MOSTRANDO AQUILO QUE
+                    RELAMENTE RESOLVE A SUA VIDA” – Leonardo Navarro.
+                    .
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div style="background-color: #292929;" class="card-header">
+                    <a style="text-decoration: none; color: white;" class="collapsed card-link" data-toggle="collapse"
+                      href="#collapseFour">
+                      <i class="lni-chevron-right text-left"></i> O curso é on-line ou presencial?
+                    </a>
+                  </div>
+                  <div id="collapseFour" class="collapse" data-parent="#accordion">
+                    <div class="card-body text-left">
+                      Desde 1999, nós aplicamos o método de forma presencial e há um bom tempo os empresários nos cobram
+                      a versão on-line. Então agora, você tem toda a experiência mais de 20 anos, 100% on-line na palma
+                      da sua mão, para assistir de onde quiser, quantas vezes quiser, no dispositivo que você quiser,
+                      basta ter um acesso à internet.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div style="background-color: #292929;" class="card-header">
+                    <a style="text-decoration: none; color: white;" class="collapsed card-link" data-toggle="collapse"
+                      href="#collapseFive">
+                      <i class="lni-chevron-right text-left"></i> Quanto tempo dura o acesso ao curso?
+                    </a>
+                  </div>
+                  <div id="collapseFive" class="collapse" data-parent="#accordion">
+                    <div class="card-body text-left">
+                      O acesso ao curso é vitalício, você poderá acessá-lo sempre que precisar.
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+    <footer>
+      <div class="container pt-4 pb-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="footer-logo">
+              <img class="img-fluid pt-2 pb-2" style="width: 170px;" src="cde/img/idebrasil_logo.png" alt="">
+              <p style="color: white; font-size: 13px;">EL Treinamentos LTDA.<br>
+                CNPJ: 41.911.153/0001-78<br>
+                Rua: Aspásia de Miranda Mourão, n° 25, Estoril, Belo Horizonte, MG. CEP: 30.494-205<br>
+                <!-- Telefone: (31) 9 9655-3830 -->
+              </p>
+            </div>
+            <div class="social-icons-footer">
+              <ul>
+                <li class="facebook"><a href="https://www.facebook.com/leonavarroidebrasil/" target="_blank" href="3"><i
+                      class="lni-facebook-filled"></i></a></li>
+                <li class="pinterest"><a href="https://www.instagram.com/leonavarro_idebrasil/" target="_blank"
+                    href="3"><i class="lni-instagram-filled"></i></a></li>
+                <li class="pinterest"><a href="https://www.youtube.com/c/LeonardoNavarroIDEBRASIL/" target="_blank"
+                    href="3"><i class="lni-youtube"></i></a></li>
+              </ul>
+            </div>
+            <div class="site-info">
+              <p>Designed and Developed by <a href="http://idebrasil.com.br" rel="nofollow">IDEBRASIL</a></p>
+              <p><a href="https://alunos.idebrasilbh.com.br/alunos/politicadeprivacidade" rel="nofollow">Política de
+                  Privacidade</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="lni-chevron-up"></i>
+    </a>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="cde/js/jquery-min.js"></script>
+    <script src="cde/js/popper.min.js"></script>
+    <script src="cde/js/bootstrap.min.js"></script>
+    <script src="cde/js/jquery.countdown.min.js"></script>
+    <script src="cde/js/waypoints.min.js"></script>
+    <script src="cde/js/jquery.counterup.min.js"></script>
+    <script src="cde/js/jquery.nav.js"></script>
+    <script src="cde/js/jquery.easing.min.js"></script>
+    <script src="cde/js.js"></script>
+    <script src="cde/js/nivo-lightbox.js"></script>
+    <script src="cde/js/video.js"></script>
+    <script src="cde/js/main.js"></script>
+
+    <script>
+
+      //oferta01
+
+      const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+      let countDown = new Date('Sep 19, 2021 23:59:00').getTime(),
+        x = setInterval(function () {
+
+          let now = new Date().getTime(),
+
+            distance = countDown - now;
+
+          document.getElementById('days').innerText = Math.floor(distance / (day)),
+            document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+            document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+            document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+
+          //execute esta ação quando a distancia for igual ou menor que 0
+          if (distance <= 0) {
+            clearInterval(x);
+            document.getElementById('nav01').innerHTML = "<nav style='display: none;></nav>'";
+            document.getElementById('nav02').style.display = "block";
+
+            document.getElementById('bonus1-1').innerHTML = "<section style='display: none;></section>'";
+            document.getElementById('bonus2-1').innerHTML = "<section style='display: none;></section>'";
+            document.getElementById('bonus3-1').innerHTML = "<section style='display: none;></section>'";
+
+            document.getElementById('bonus1-2').style.display = "block";
+            document.getElementById('bonus2-2').style.display = "block";
+
+            document.getElementById('oferta01').style.display = "none";
+            document.getElementById('oferta1.1').style.display = "block";
+
+            document.getElementById('oferta02').style.display = "block";
+            document.getElementById('oferta1.2').style.display = "none";
+
+            //Segunda Oferta 
+            document.getElementById('btnOferta').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOfertaHome2').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOfertaHome3').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOferta1').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOferta2').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOferta3').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOferta4').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOferta5').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOferta6').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common-2 mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOferta7').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOferta8').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOferta9').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+            document.getElementById('btnOferta10').innerHTML = "<a href='https://alunos.idebrasilbh.com.br/pagamento/47/8l' class='btn btn-lg btn-common mt-4'> QUERO ME INSCREVER </a>";
+          }
+
+        }, second)
+
+      /********************************/
+
+      //oferta02
+
+      const second2 = 1000,
+        minute2 = second2 * 60,
+        hour2 = minute2 * 60,
+        day2 = hour2 * 24;
+
+      let countDown2 = new Date('Sep 22, 2021 23:59:00').getTime(),
+        x2 = setInterval(function () {
+          let now2 = new Date().getTime(),
+
+            distance2 = countDown2 - now2;
+
+          document.getElementById('days2').innerText = Math.floor(distance2 / (day2)),
+            document.getElementById('hours2').innerText = Math.floor((distance2 % (day2)) / (hour2)),
+            document.getElementById('minutes2').innerText = Math.floor((distance2 % (hour2)) / (minute2)),
+            document.getElementById('seconds2').innerText = Math.floor((distance2 % (minute2)) / second2);
+
+          //execute esta ação quando a distancia for igual ou menor que 0ed
+          if (distance2 <= 0) {
+            // clearInterval(x2);
+
+            document.getElementById('descNavBar2').style.display = "none";
+            document.getElementById('imgNav').style.display = "block";
+            document.getElementById('listNav02').style.display = "none";
+
+            //Quando o carrinho fechar esconder os botões que levam ao checkout
+            document.getElementById('btnOferta').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOfertaHome2').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOfertaHome3').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOferta1').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOferta2').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOferta3').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOferta4').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOferta5').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOferta6').innerHTML = "<a class='btn btn-lg btn-common-2 mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOferta7').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOferta8').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOferta9').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+            document.getElementById('btnOferta10').innerHTML = "<a class='btn btn-lg btn-common mt-4' data-toggle='modal' data-target='#form-cde'><span style='color: white;'>QUERO ME INSCREVER</span></a>";
+
+           
+
+            document.addEventListener("mouseleave", function (e) {
+              if (distance2 <= 0) {
+                $(document).ready(function (e) {
+                  $("#form-cde").modal("show");
+                })
+              }
+            }, false);
+            
+          }
+
+        }, second)
+
+    </script>
+
+
+    <!--Input mask Js-->
+    <!-- <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script> -->
+    <script src="cde/js/jquery.mask.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#primeiro-valor').toLocaleString('pt-BR');
+        //$('#resultado1').mask('000.000.000', { reverse: false });
+        //$('#resultado2').mask('000.000.000', { reverse: false });
+        //$('#resultado3').mask('000.000.000', { reverse: false });
+
+        // $('primeiro-valor').mask("00.000.000");
+      });
+    </script>
+
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+      (function () {
+        var options = {
+          whatsapp: "+5531972070165", // WhatsApp number
+          call_to_action: "Olá,em que podemos ajudá-lo?", // Call to action
+          position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+    </script>
+    <!-- /GetButton.io widget -->
+
+    <script>
+      var fatMedio = document.querySelector("#primeiro-valor");
+      var lucroMensal = document.querySelector("#resultado1");
+      var lucroAnual = document.querySelector("#resultado2");
+      var lucro5anos = document.querySelector("#resultado3");
+
+      function calcular1(fatMedio) {
+        var valor1 = (fatMedio.value);
+        return (valor1 * 0.03).toLocaleString('pt-BR');;
+      }
+
+      function calcular2(fatMedio) {
+        var valor1 = parseFloat(fatMedio.value);
+        return (valor1 * 0.03 * 12).toLocaleString('pt-BR');
+      }
+
+      function calcular3(fatMedio) {
+        var valor1 = parseFloat(fatMedio.value);
+        return (valor1 * 0.03 * 60).toLocaleString('pt-BR');
+      }
+
+      function evtCalcular1() {
+        var resultado1 = calcular1(fatMedio);
+        lucroMensal.value = resultado1;
+        // return lucroMensal.toLocaleString('pt-BR');
+      }
+
+      function evtCalcular2() {
+        var resultado2 = calcular2(fatMedio);
+        lucroAnual.value = resultado2;
+      }
+
+      function evtCalcular3() {
+        var resultado3 = calcular3(fatMedio);
+        lucro5anos.value = resultado3;
+      }
+
+      fatMedio.addEventListener('blur', evtCalcular1);
+      fatMedio.addEventListener('blur', evtCalcular2);
+      fatMedio.addEventListener('blur', evtCalcular3);
+
+// segundoValor.addEventListener('blur', evtCalcular);
+    </script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6VQP9X"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+    <%- include('./partials/modalCde.ejs') %>
+</body>
+
+</html>

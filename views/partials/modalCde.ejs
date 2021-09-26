@@ -1,0 +1,76 @@
+<!-- Modal -->
+<div class="modal fade" id="form-cde" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-md modal-dialog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-header" style="background-color: black;">
+      <img class="img-responsive" src="cde/img/idebrasil_logo.png" style="width: 150px;">
+      <button style="color: white;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <h6 style="color: black;" class="modal-title text-center pt-2" id="exampleModalLongTitle">
+      <strong>
+        Opa! Infelizmente as Inscrições já finalizaram.<br>
+        Você quer participar da próxima turma do CDE?<br>
+        Deixe aqui o seu contato para que você seja avisado.
+      </strong>
+    </h6>
+    <!---------------------------------
+      Inicio do formulário seção Home
+    ---------------------------------->
+    <div class="modal-body">
+      <form name="form" method="POST" action="/cadCde">
+        <input type="hidden" name="tag" value="LP CDE - 7ºL - Aviso Proximas Turmas" class="inputtag">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pb-2">
+            <!--nome-->
+            <input style="outline: none;" id="firstName" type="text" name="firstName" class="form-control" placeholder="Nome *" >               
+            <span style="font-size: 12px; color: rgb(168, 26, 26)" id="msgNome"></span>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pb-2">
+            <!--email-->
+            <input id="email" type="email" name="email" class="form-control" placeholder="E-mail *">
+            <span style="font-size: 12px; color: rgb(168, 26, 26)" id="msgEmail"></span>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pb-2">
+            <!--telefone de contato-->
+            <input id="telefone" type="text" name="phone" class="form-control" placeholder="Celular *" minlength = 17>
+            <span style="font-size: 12px; color: rgb(168, 26, 26)" id="msgPhone"></span>
+          </div>
+        </div>
+        <div class="text-center" style="padding-top: 10px;">
+            <button type="submit" class="btn btn-success btn-lg" onclick="msgInputsOff()">ENVIAR</button>
+        </div>
+      </form>
+      
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  function msgInputsOff(){
+    var email = form.email
+    var nome = form.firstName
+    var phone = form.phone
+    var msgerro = "Campo obrigatório"
+
+      if(email.value == ""){
+          document.getElementById("msgEmail").innerHTML = msgerro;
+      }else {
+        document.getElementById("msgEmail").innerHTML = "";
+      }
+      if(nome.value == ""){
+          document.getElementById("msgNome").innerHTML = msgerro;
+      }else {
+        document.getElementById("msgNome").innerHTML = "";
+      }
+      if(phone.value == ""){
+          document.getElementById("msgPhone").innerHTML = msgerro;
+      }else {
+        document.getElementById("msgPhone").innerHTML = "";
+      }
+  }
+</script>
+<!--modal end-->
